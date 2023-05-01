@@ -1,0 +1,37 @@
+* {
+  font-family: "Roboto", sans-serif;
+  text-align: center
+}
+.btnBlocks {
+  display: flex;
+  height: 80px;
+  background-color: aqua;
+  align-items: center;
+  justify-content: center;
+  gap: 15px
+}
+
+.btnBlocks button {
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: 200;
+  font-style: normal;
+  color: rgb(61, 61, 61);
+  background-color: rgb(255, 255, 255);
+  height: 40px;
+  width: 140px;
+  text-align: center;
+}
+
+.btnBlocks button:hover {
+  font-size: 25px;
+  font-weight: 400;
+  color: white;
+  background-color: rgb(61, 61, 61);
+}
+
+#currentScore {
+  display: inline;
+}
+
